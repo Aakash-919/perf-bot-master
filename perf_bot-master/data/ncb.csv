@@ -1,0 +1,358 @@
+id,tokens,slots,intent
+0,i want to update my cgpa to 9,o o o o o attr_name o attr_newval,update_attribute
+1,i want to submit a request to update my cgpa to 9,o o o o o o o o o attr_name o attr_newval,update_attribute
+2,please update my cgpa to 9,o o o attr_name o attr_newval,update_attribute
+3,my cgpa has changed to 9,o attr_name o o o attr_newval,update_attribute
+4,set my cgpa as 9,o o attr_name o attr_newval,update_attribute
+5,change my cgpa to 9,o o attr_name o attr_newval,update_attribute
+6,increase my cgpa by 1,o o attr_name o attr_incval,inc_attr
+7,add 1 to my cgpa,o attr_incval o o attr_name,inc_attr
+8,cgpa has improved by 1,attr_name o o o attr_incval,inc_attr
+9,i got an increase of 1 in my cgpa,o o o o o attr_incval o o attr_name,inc_attr
+10,decrease my cgpa by 1,o o attr_name o attr_incval,dec_attr
+11,subtract 1 from my cgpa,o attr_incval o o attr_name,dec_attr
+12,cgpa has deteriorated by 1,attr_name o o o attr_incval,dec_attr
+13,cgpa has fallen by 1,attr_name o o o attr_incval,dec_attr
+14,i got a decrease of 1 in my cgpa,o o o o o attr_incval o o attr_name,dec_attr
+15,i participated in an internship,o o o o o,internship
+16,i got an internship,o o o o,internship
+17,i recently interned at a company,o o o o o o,internship
+18,i was blessed with the opportunity to intern with a company,o o o o o o o o o o o,internship
+19,i worked as an intern,o o o o o,internship
+20,i participated in a hackathon,o o o o attr_name,participated_hack
+21,i lost a hackathon,o o o o,participated_hack
+22,i tried my best and worked tirelessly but lost a hackathon,o o o o o o o o o o o,participated_hack
+23,i won a hackathon,o o o o,won_hack
+24,i was declared winner in a hackathon,o o o o o o o,won_hack
+25,i stood on the top step of the podium of a hackathon,o o o o o o o o o o o o,won_hack
+26,i won the first place award at a hackathon,o o o o o o o o o,won_hack
+27,i learnt a new technology,o o o o o,learnt_tech
+28,i learnt 2 new technologies,o o attr_incval o o,learnt_tech
+29,i am confident in 2 more technologies,o o o o attr_incval o o,learnt_tech
+30,i now know another technology,o o o o o,learnt_tech
+31,send me my report,o o o o,send_report
+32,fetch my report,o o o,send_report
+33,i want my report,o o o o,send_report
+34,send me a summary of my progress,o o o o o o o,send_report
+35,i want to see my report,o o o o o o,send_report
+36,show me my report,o o o o,send_report
+37,i want to update my cgpa to 1,o o o o o attr_name o attr_newval,update_attribute
+38,i want to update my cgpa to 2,o o o o o attr_name o attr_newval,update_attribute
+39,i want to update my cgpa to 3,o o o o o attr_name o attr_newval,update_attribute
+40,i want to update my cgpa to 4,o o o o o attr_name o attr_newval,update_attribute
+41,i want to update my cgpa to 5,o o o o o attr_name o attr_newval,update_attribute
+42,i want to update my cgpa to 6,o o o o o attr_name o attr_newval,update_attribute
+43,i want to update my cgpa to 7,o o o o o attr_name o attr_newval,update_attribute
+44,i want to update my cgpa to 8,o o o o o attr_name o attr_newval,update_attribute
+45,i want to update my cgpa to 9,o o o o o attr_name o attr_newval,update_attribute
+46,i want to update my cgpa to 10,o o o o o attr_name o attr_newval,update_attribute
+47,i want to submit a request to update my cgpa to 1,o o o o o o o o o attr_name o attr_newval,update_attribute
+48,i want to submit a request to update my cgpa to 2,o o o o o o o o o attr_name o attr_newval,update_attribute
+49,i want to submit a request to update my cgpa to 3,o o o o o o o o o attr_name o attr_newval,update_attribute
+50,i want to submit a request to update my cgpa to 4,o o o o o o o o o attr_name o attr_newval,update_attribute
+51,i want to submit a request to update my cgpa to 5,o o o o o o o o o attr_name o attr_newval,update_attribute
+52,i want to submit a request to update my cgpa to 6,o o o o o o o o o attr_name o attr_newval,update_attribute
+53,i want to submit a request to update my cgpa to 7,o o o o o o o o o attr_name o attr_newval,update_attribute
+54,i want to submit a request to update my cgpa to 8,o o o o o o o o o attr_name o attr_newval,update_attribute
+55,i want to submit a request to update my cgpa to 9,o o o o o o o o o attr_name o attr_newval,update_attribute
+56,i want to submit a request to update my cgpa to 10,o o o o o o o o o attr_name o attr_newval,update_attribute
+57,please update my cgpa to 1,o o o attr_name o attr_newval,update_attribute
+58,please update my cgpa to 2,o o o attr_name o attr_newval,update_attribute
+59,please update my cgpa to 3,o o o attr_name o attr_newval,update_attribute
+60,please update my cgpa to 4,o o o attr_name o attr_newval,update_attribute
+61,please update my cgpa to 5,o o o attr_name o attr_newval,update_attribute
+62,please update my cgpa to 6,o o o attr_name o attr_newval,update_attribute
+63,please update my cgpa to 7,o o o attr_name o attr_newval,update_attribute
+64,please update my cgpa to 8,o o o attr_name o attr_newval,update_attribute
+65,please update my cgpa to 9,o o o attr_name o attr_newval,update_attribute
+66,please update my cgpa to 10,o o o attr_name o attr_newval,update_attribute
+67,my cgpa has changed to 1,o attr_name o o o attr_newval,update_attribute
+68,my cgpa has changed to 2,o attr_name o o o attr_newval,update_attribute
+69,my cgpa has changed to 3,o attr_name o o o attr_newval,update_attribute
+70,my cgpa has changed to 4,o attr_name o o o attr_newval,update_attribute
+71,my cgpa has changed to 5,o attr_name o o o attr_newval,update_attribute
+72,my cgpa has changed to 6,o attr_name o o o attr_newval,update_attribute
+73,my cgpa has changed to 7,o attr_name o o o attr_newval,update_attribute
+74,my cgpa has changed to 8,o attr_name o o o attr_newval,update_attribute
+75,my cgpa has changed to 9,o attr_name o o o attr_newval,update_attribute
+76,my cgpa has changed to 10,o attr_name o o o attr_newval,update_attribute
+77,set my cgpa as 1,o o attr_name o attr_newval,update_attribute
+78,set my cgpa as 2,o o attr_name o attr_newval,update_attribute
+79,set my cgpa as 3,o o attr_name o attr_newval,update_attribute
+80,set my cgpa as 4,o o attr_name o attr_newval,update_attribute
+81,set my cgpa as 5,o o attr_name o attr_newval,update_attribute
+82,set my cgpa as 6,o o attr_name o attr_newval,update_attribute
+83,set my cgpa as 7,o o attr_name o attr_newval,update_attribute
+84,set my cgpa as 8,o o attr_name o attr_newval,update_attribute
+85,set my cgpa as 9,o o attr_name o attr_newval,update_attribute
+86,set my cgpa as 10,o o attr_name o attr_newval,update_attribute
+87,change my cgpa to 1,o o attr_name o attr_newval,update_attribute
+88,change my cgpa to 2,o o attr_name o attr_newval,update_attribute
+89,change my cgpa to 3,o o attr_name o attr_newval,update_attribute
+90,change my cgpa to 4,o o attr_name o attr_newval,update_attribute
+91,change my cgpa to 5,o o attr_name o attr_newval,update_attribute
+92,change my cgpa to 6,o o attr_name o attr_newval,update_attribute
+93,change my cgpa to 7,o o attr_name o attr_newval,update_attribute
+94,change my cgpa to 8,o o attr_name o attr_newval,update_attribute
+95,change my cgpa to 9,o o attr_name o attr_newval,update_attribute
+96,change my cgpa to 10,o o attr_name o attr_newval,update_attribute
+97,increase my cgpa by 1,o o attr_name o attr_incval,inc_attr
+98,increase my cgpa by 2,o o attr_name o attr_incval,inc_attr
+99,increase my cgpa by 3,o o attr_name o attr_incval,inc_attr
+100,increase my cgpa by 4,o o attr_name o attr_incval,inc_attr
+101,increase my cgpa by 5,o o attr_name o attr_incval,inc_attr
+102,increase my cgpa by 6,o o attr_name o attr_incval,inc_attr
+103,increase my cgpa by 7,o o attr_name o attr_incval,inc_attr
+104,increase my cgpa by 8,o o attr_name o attr_incval,inc_attr
+105,increase my cgpa by 9,o o attr_name o attr_incval,inc_attr
+106,increase my cgpa by 10,o o attr_name o attr_incval,inc_attr
+107,add 1 to my cgpa,o attr_incval o o attr_name,inc_attr
+108,add 2 to my cgpa,o attr_incval o o attr_name,inc_attr
+109,add 3 to my cgpa,o attr_incval o o attr_name,inc_attr
+110,add 4 to my cgpa,o attr_incval o o attr_name,inc_attr
+111,add 5 to my cgpa,o attr_incval o o attr_name,inc_attr
+112,add 6 to my cgpa,o attr_incval o o attr_name,inc_attr
+113,add 7 to my cgpa,o attr_incval o o attr_name,inc_attr
+114,add 8 to my cgpa,o attr_incval o o attr_name,inc_attr
+115,add 9 to my cgpa,o attr_incval o o attr_name,inc_attr
+116,add 10 to my cgpa,o attr_incval o o attr_name,inc_attr
+117,cgpa has improved by 1,attr_name o o o attr_incval,inc_attr
+118,cgpa has improved by 2,attr_name o o o attr_incval,inc_attr
+119,cgpa has improved by 3,attr_name o o o attr_incval,inc_attr
+120,cgpa has improved by 4,attr_name o o o attr_incval,inc_attr
+121,cgpa has improved by 5,attr_name o o o attr_incval,inc_attr
+122,cgpa has improved by 6,attr_name o o o attr_incval,inc_attr
+123,cgpa has improved by 7,attr_name o o o attr_incval,inc_attr
+124,cgpa has improved by 8,attr_name o o o attr_incval,inc_attr
+125,cgpa has improved by 9,attr_name o o o attr_incval,inc_attr
+126,cgpa has improved by 10,attr_name o o o attr_incval,inc_attr
+127,i got an increase of 1 in my cgpa,o o o o o attr_incval o o attr_name,inc_attr
+128,i got an increase of 2 in my cgpa,o o o o o attr_incval o o attr_name,inc_attr
+129,i got an increase of 3 in my cgpa,o o o o o attr_incval o o attr_name,inc_attr
+130,i got an increase of 4 in my cgpa,o o o o o attr_incval o o attr_name,inc_attr
+131,i got an increase of 5 in my cgpa,o o o o o attr_incval o o attr_name,inc_attr
+132,i got an increase of 6 in my cgpa,o o o o o attr_incval o o attr_name,inc_attr
+133,i got an increase of 7 in my cgpa,o o o o o attr_incval o o attr_name,inc_attr
+134,i got an increase of 8 in my cgpa,o o o o o attr_incval o o attr_name,inc_attr
+135,i got an increase of 9 in my cgpa,o o o o o attr_incval o o attr_name,inc_attr
+136,i got an increase of 10 in my cgpa,o o o o o attr_incval o o attr_name,inc_attr
+137,decrease my cgpa by 1,o o attr_name o attr_incval,dec_attr
+138,decrease my cgpa by 2,o o attr_name o attr_incval,dec_attr
+139,decrease my cgpa by 3,o o attr_name o attr_incval,dec_attr
+140,decrease my cgpa by 4,o o attr_name o attr_incval,dec_attr
+141,decrease my cgpa by 5,o o attr_name o attr_incval,dec_attr
+142,decrease my cgpa by 6,o o attr_name o attr_incval,dec_attr
+143,decrease my cgpa by 7,o o attr_name o attr_incval,dec_attr
+144,decrease my cgpa by 8,o o attr_name o attr_incval,dec_attr
+145,decrease my cgpa by 9,o o attr_name o attr_incval,dec_attr
+146,decrease my cgpa by 10,o o attr_name o attr_incval,dec_attr
+147,subtract 1 from my cgpa,o attr_incval o o attr_name,dec_attr
+148,subtract 2 from my cgpa,o attr_incval o o attr_name,dec_attr
+149,subtract 3 from my cgpa,o attr_incval o o attr_name,dec_attr
+150,subtract 4 from my cgpa,o attr_incval o o attr_name,dec_attr
+151,subtract 5 from my cgpa,o attr_incval o o attr_name,dec_attr
+152,subtract 6 from my cgpa,o attr_incval o o attr_name,dec_attr
+153,subtract 7 from my cgpa,o attr_incval o o attr_name,dec_attr
+154,subtract 8 from my cgpa,o attr_incval o o attr_name,dec_attr
+155,subtract 9 from my cgpa,o attr_incval o o attr_name,dec_attr
+156,subtract 10 from my cgpa,o attr_incval o o attr_name,dec_attr
+157,cgpa has deteriorated by 1,attr_name o o o attr_incval,dec_attr
+158,cgpa has deteriorated by 2,attr_name o o o attr_incval,dec_attr
+159,cgpa has deteriorated by 3,attr_name o o o attr_incval,dec_attr
+160,cgpa has deteriorated by 4,attr_name o o o attr_incval,dec_attr
+161,cgpa has deteriorated by 5,attr_name o o o attr_incval,dec_attr
+162,cgpa has deteriorated by 6,attr_name o o o attr_incval,dec_attr
+163,cgpa has deteriorated by 7,attr_name o o o attr_incval,dec_attr
+164,cgpa has deteriorated by 8,attr_name o o o attr_incval,dec_attr
+165,cgpa has deteriorated by 9,attr_name o o o attr_incval,dec_attr
+166,cgpa has deteriorated by 10,attr_name o o o attr_incval,dec_attr
+167,cgpa has fallen by 1,attr_name o o o attr_incval,dec_attr
+168,cgpa has fallen by 2,attr_name o o o attr_incval,dec_attr
+169,cgpa has fallen by 3,attr_name o o o attr_incval,dec_attr
+170,cgpa has fallen by 4,attr_name o o o attr_incval,dec_attr
+171,cgpa has fallen by 5,attr_name o o o attr_incval,dec_attr
+172,cgpa has fallen by 6,attr_name o o o attr_incval,dec_attr
+173,cgpa has fallen by 7,attr_name o o o attr_incval,dec_attr
+174,cgpa has fallen by 8,attr_name o o o attr_incval,dec_attr
+175,cgpa has fallen by 9,attr_name o o o attr_incval,dec_attr
+176,cgpa has fallen by 10,attr_name o o o attr_incval,dec_attr
+177,i got a decrease of 1 in my cgpa,o o o o o attr_incval o o attr_name,dec_attr
+178,i got a decrease of 2 in my cgpa,o o o o o attr_incval o o attr_name,dec_attr
+179,i got a decrease of 3 in my cgpa,o o o o o attr_incval o o attr_name,dec_attr
+180,i got a decrease of 4 in my cgpa,o o o o o attr_incval o o attr_name,dec_attr
+181,i got a decrease of 5 in my cgpa,o o o o o attr_incval o o attr_name,dec_attr
+182,i got a decrease of 6 in my cgpa,o o o o o attr_incval o o attr_name,dec_attr
+183,i got a decrease of 7 in my cgpa,o o o o o attr_incval o o attr_name,dec_attr
+184,i got a decrease of 8 in my cgpa,o o o o o attr_incval o o attr_name,dec_attr
+185,i got a decrease of 9 in my cgpa,o o o o o attr_incval o o attr_name,dec_attr
+186,i got a decrease of 10 in my cgpa,o o o o o attr_incval o o attr_name,dec_attr
+187,i want to update my iq to 1,o o o o o attr_name o attr_newval,update_attribute
+188,i want to update my iq to 2,o o o o o attr_name o attr_newval,update_attribute
+189,i want to update my iq to 3,o o o o o attr_name o attr_newval,update_attribute
+190,i want to update my iq to 4,o o o o o attr_name o attr_newval,update_attribute
+191,i want to update my iq to 5,o o o o o attr_name o attr_newval,update_attribute
+192,i want to update my iq to 6,o o o o o attr_name o attr_newval,update_attribute
+193,i want to update my iq to 7,o o o o o attr_name o attr_newval,update_attribute
+194,i want to update my iq to 8,o o o o o attr_name o attr_newval,update_attribute
+195,i want to update my iq to 9,o o o o o attr_name o attr_newval,update_attribute
+196,i want to update my iq to 10,o o o o o attr_name o attr_newval,update_attribute
+197,i want to submit a request to update my iq to 1,o o o o o o o o o attr_name o attr_newval,update_attribute
+198,i want to submit a request to update my iq to 2,o o o o o o o o o attr_name o attr_newval,update_attribute
+199,i want to submit a request to update my iq to 3,o o o o o o o o o attr_name o attr_newval,update_attribute
+200,i want to submit a request to update my iq to 4,o o o o o o o o o attr_name o attr_newval,update_attribute
+201,i want to submit a request to update my iq to 5,o o o o o o o o o attr_name o attr_newval,update_attribute
+202,i want to submit a request to update my iq to 6,o o o o o o o o o attr_name o attr_newval,update_attribute
+203,i want to submit a request to update my iq to 7,o o o o o o o o o attr_name o attr_newval,update_attribute
+204,i want to submit a request to update my iq to 8,o o o o o o o o o attr_name o attr_newval,update_attribute
+205,i want to submit a request to update my iq to 9,o o o o o o o o o attr_name o attr_newval,update_attribute
+206,i want to submit a request to update my iq to 10,o o o o o o o o o attr_name o attr_newval,update_attribute
+207,please update my iq to 1,o o o attr_name o attr_newval,update_attribute
+208,please update my iq to 2,o o o attr_name o attr_newval,update_attribute
+209,please update my iq to 3,o o o attr_name o attr_newval,update_attribute
+210,please update my iq to 4,o o o attr_name o attr_newval,update_attribute
+211,please update my iq to 5,o o o attr_name o attr_newval,update_attribute
+212,please update my iq to 6,o o o attr_name o attr_newval,update_attribute
+213,please update my iq to 7,o o o attr_name o attr_newval,update_attribute
+214,please update my iq to 8,o o o attr_name o attr_newval,update_attribute
+215,please update my iq to 9,o o o attr_name o attr_newval,update_attribute
+216,please update my iq to 10,o o o attr_name o attr_newval,update_attribute
+217,my iq has changed to 1,o attr_name o o o attr_newval,update_attribute
+218,my iq has changed to 2,o attr_name o o o attr_newval,update_attribute
+219,my iq has changed to 3,o attr_name o o o attr_newval,update_attribute
+220,my iq has changed to 4,o attr_name o o o attr_newval,update_attribute
+221,my iq has changed to 5,o attr_name o o o attr_newval,update_attribute
+222,my iq has changed to 6,o attr_name o o o attr_newval,update_attribute
+223,my iq has changed to 7,o attr_name o o o attr_newval,update_attribute
+224,my iq has changed to 8,o attr_name o o o attr_newval,update_attribute
+225,my iq has changed to 9,o attr_name o o o attr_newval,update_attribute
+226,my iq has changed to 10,o attr_name o o o attr_newval,update_attribute
+227,set my iq as 1,o o attr_name o attr_newval,update_attribute
+228,set my iq as 2,o o attr_name o attr_newval,update_attribute
+229,set my iq as 3,o o attr_name o attr_newval,update_attribute
+230,set my iq as 4,o o attr_name o attr_newval,update_attribute
+231,set my iq as 5,o o attr_name o attr_newval,update_attribute
+232,set my iq as 6,o o attr_name o attr_newval,update_attribute
+233,set my iq as 7,o o attr_name o attr_newval,update_attribute
+234,set my iq as 8,o o attr_name o attr_newval,update_attribute
+235,set my iq as 9,o o attr_name o attr_newval,update_attribute
+236,set my iq as 10,o o attr_name o attr_newval,update_attribute
+237,change my iq to 1,o o attr_name o attr_newval,update_attribute
+238,change my iq to 2,o o attr_name o attr_newval,update_attribute
+239,change my iq to 3,o o attr_name o attr_newval,update_attribute
+240,change my iq to 4,o o attr_name o attr_newval,update_attribute
+241,change my iq to 5,o o attr_name o attr_newval,update_attribute
+242,change my iq to 6,o o attr_name o attr_newval,update_attribute
+243,change my iq to 7,o o attr_name o attr_newval,update_attribute
+244,change my iq to 8,o o attr_name o attr_newval,update_attribute
+245,change my iq to 9,o o attr_name o attr_newval,update_attribute
+246,change my iq to 10,o o attr_name o attr_newval,update_attribute
+247,increase my iq by 1,o o attr_name o attr_incval,inc_attr
+248,increase my iq by 2,o o attr_name o attr_incval,inc_attr
+249,increase my iq by 3,o o attr_name o attr_incval,inc_attr
+250,increase my iq by 4,o o attr_name o attr_incval,inc_attr
+251,increase my iq by 5,o o attr_name o attr_incval,inc_attr
+252,increase my iq by 6,o o attr_name o attr_incval,inc_attr
+253,increase my iq by 7,o o attr_name o attr_incval,inc_attr
+254,increase my iq by 8,o o attr_name o attr_incval,inc_attr
+255,increase my iq by 9,o o attr_name o attr_incval,inc_attr
+256,increase my iq by 10,o o attr_name o attr_incval,inc_attr
+257,add 1 to my iq,o attr_incval o o attr_name,inc_attr
+258,add 2 to my iq,o attr_incval o o attr_name,inc_attr
+259,add 3 to my iq,o attr_incval o o attr_name,inc_attr
+260,add 4 to my iq,o attr_incval o o attr_name,inc_attr
+261,add 5 to my iq,o attr_incval o o attr_name,inc_attr
+262,add 6 to my iq,o attr_incval o o attr_name,inc_attr
+263,add 7 to my iq,o attr_incval o o attr_name,inc_attr
+264,add 8 to my iq,o attr_incval o o attr_name,inc_attr
+265,add 9 to my iq,o attr_incval o o attr_name,inc_attr
+266,add 10 to my iq,o attr_incval o o attr_name,inc_attr
+267,iq has improved by 1,attr_name o o o attr_incval,inc_attr
+268,iq has improved by 2,attr_name o o o attr_incval,inc_attr
+269,iq has improved by 3,attr_name o o o attr_incval,inc_attr
+270,iq has improved by 4,attr_name o o o attr_incval,inc_attr
+271,iq has improved by 5,attr_name o o o attr_incval,inc_attr
+272,iq has improved by 6,attr_name o o o attr_incval,inc_attr
+273,iq has improved by 7,attr_name o o o attr_incval,inc_attr
+274,iq has improved by 8,attr_name o o o attr_incval,inc_attr
+275,iq has improved by 9,attr_name o o o attr_incval,inc_attr
+276,iq has improved by 10,attr_name o o o attr_incval,inc_attr
+277,i got an increase of 1 in my iq,o o o o o attr_incval o o attr_name,inc_attr
+278,i got an increase of 2 in my iq,o o o o o attr_incval o o attr_name,inc_attr
+279,i got an increase of 3 in my iq,o o o o o attr_incval o o attr_name,inc_attr
+280,i got an increase of 4 in my iq,o o o o o attr_incval o o attr_name,inc_attr
+281,i got an increase of 5 in my iq,o o o o o attr_incval o o attr_name,inc_attr
+282,i got an increase of 6 in my iq,o o o o o attr_incval o o attr_name,inc_attr
+283,i got an increase of 7 in my iq,o o o o o attr_incval o o attr_name,inc_attr
+284,i got an increase of 8 in my iq,o o o o o attr_incval o o attr_name,inc_attr
+285,i got an increase of 9 in my iq,o o o o o attr_incval o o attr_name,inc_attr
+286,i got an increase of 10 in my iq,o o o o o attr_incval o o attr_name,inc_attr
+287,decrease my iq by 1,o o attr_name o attr_incval,dec_attr
+288,decrease my iq by 2,o o attr_name o attr_incval,dec_attr
+289,decrease my iq by 3,o o attr_name o attr_incval,dec_attr
+290,decrease my iq by 4,o o attr_name o attr_incval,dec_attr
+291,decrease my iq by 5,o o attr_name o attr_incval,dec_attr
+292,decrease my iq by 6,o o attr_name o attr_incval,dec_attr
+293,decrease my iq by 7,o o attr_name o attr_incval,dec_attr
+294,decrease my iq by 8,o o attr_name o attr_incval,dec_attr
+295,decrease my iq by 9,o o attr_name o attr_incval,dec_attr
+296,decrease my iq by 10,o o attr_name o attr_incval,dec_attr
+297,subtract 1 from my iq,o attr_incval o o attr_name,dec_attr
+298,subtract 2 from my iq,o attr_incval o o attr_name,dec_attr
+299,subtract 3 from my iq,o attr_incval o o attr_name,dec_attr
+300,subtract 4 from my iq,o attr_incval o o attr_name,dec_attr
+301,subtract 5 from my iq,o attr_incval o o attr_name,dec_attr
+302,subtract 6 from my iq,o attr_incval o o attr_name,dec_attr
+303,subtract 7 from my iq,o attr_incval o o attr_name,dec_attr
+304,subtract 8 from my iq,o attr_incval o o attr_name,dec_attr
+305,subtract 9 from my iq,o attr_incval o o attr_name,dec_attr
+306,subtract 10 from my iq,o attr_incval o o attr_name,dec_attr
+307,iq has deteriorated by 1,attr_name o o o attr_incval,dec_attr
+308,iq has deteriorated by 2,attr_name o o o attr_incval,dec_attr
+309,iq has deteriorated by 3,attr_name o o o attr_incval,dec_attr
+310,iq has deteriorated by 4,attr_name o o o attr_incval,dec_attr
+311,iq has deteriorated by 5,attr_name o o o attr_incval,dec_attr
+312,iq has deteriorated by 6,attr_name o o o attr_incval,dec_attr
+313,iq has deteriorated by 7,attr_name o o o attr_incval,dec_attr
+314,iq has deteriorated by 8,attr_name o o o attr_incval,dec_attr
+315,iq has deteriorated by 9,attr_name o o o attr_incval,dec_attr
+316,iq has deteriorated by 10,attr_name o o o attr_incval,dec_attr
+317,iq has fallen by 1,attr_name o o o attr_incval,dec_attr
+318,iq has fallen by 2,attr_name o o o attr_incval,dec_attr
+319,iq has fallen by 3,attr_name o o o attr_incval,dec_attr
+320,iq has fallen by 4,attr_name o o o attr_incval,dec_attr
+321,iq has fallen by 5,attr_name o o o attr_incval,dec_attr
+322,iq has fallen by 6,attr_name o o o attr_incval,dec_attr
+323,iq has fallen by 7,attr_name o o o attr_incval,dec_attr
+324,iq has fallen by 8,attr_name o o o attr_incval,dec_attr
+325,iq has fallen by 9,attr_name o o o attr_incval,dec_attr
+326,iq has fallen by 10,attr_name o o o attr_incval,dec_attr
+327,i got a decrease of 1 in my iq,o o o o o attr_incval o o attr_name,dec_attr
+328,i got a decrease of 2 in my iq,o o o o o attr_incval o o attr_name,dec_attr
+329,i got a decrease of 3 in my iq,o o o o o attr_incval o o attr_name,dec_attr
+330,i got a decrease of 4 in my iq,o o o o o attr_incval o o attr_name,dec_attr
+331,i got a decrease of 5 in my iq,o o o o o attr_incval o o attr_name,dec_attr
+332,i got a decrease of 6 in my iq,o o o o o attr_incval o o attr_name,dec_attr
+333,i got a decrease of 7 in my iq,o o o o o attr_incval o o attr_name,dec_attr
+334,i got a decrease of 8 in my iq,o o o o o attr_incval o o attr_name,dec_attr
+335,i got a decrease of 9 in my iq,o o o o o attr_incval o o attr_name,dec_attr
+336,i got a decrease of 10 in my iq,o o o o o attr_incval o o attr_name,dec_attr
+337,i learnt 1 new technologies,o o attr_incval o o,learnt_tech
+338,i learnt 2 new technologies,o o attr_incval o o,learnt_tech
+339,i learnt 3 new technologies,o o attr_incval o o,learnt_tech
+340,i learnt 4 new technologies,o o attr_incval o o,learnt_tech
+341,i learnt 5 new technologies,o o attr_incval o o,learnt_tech
+342,i learnt 6 new technologies,o o attr_incval o o,learnt_tech
+343,i learnt 7 new technologies,o o attr_incval o o,learnt_tech
+344,i learnt 8 new technologies,o o attr_incval o o,learnt_tech
+345,i learnt 9 new technologies,o o attr_incval o o,learnt_tech
+346,i learnt 10 new technologies,o o attr_incval o o,learnt_tech
+347,i am confident in 1 more technologies,o o o o attr_incval o o,learnt_tech
+348,i am confident in 2 more technologies,o o o o attr_incval o o,learnt_tech
+349,i am confident in 3 more technologies,o o o o attr_incval o o,learnt_tech
+350,i am confident in 4 more technologies,o o o o attr_incval o o,learnt_tech
+351,i am confident in 5 more technologies,o o o o attr_incval o o,learnt_tech
+352,i am confident in 6 more technologies,o o o o attr_incval o o,learnt_tech
+353,i am confident in 7 more technologies,o o o o attr_incval o o,learnt_tech
+354,i am confident in 8 more technologies,o o o o attr_incval o o,learnt_tech
+355,i am confident in 9 more technologies,o o o o attr_incval o o,learnt_tech
+356,i am confident in 10 more technologies,o o o o attr_incval o o,learnt_tech

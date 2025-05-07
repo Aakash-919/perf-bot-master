@@ -1,0 +1,56 @@
+terminal command: sudo -u postgres psql postgres
+username=postgres
+password=postgres@123
+
+Show databeses: \l
+Connect to db: \c db_name
+List tables: \dt
+show column names of table: \d+ table_name
+
+TABLES:
+
+    CREATE TABLE students (
+                            id SERIAL PRIMARY KEY,
+                            college_uid varchar(20) UNIQUE,
+                            name varchar(50) NOT NULL,
+                            password varchar(200) NOT NULL,
+                            branch varchar(5)
+                          );
+
+    CREATE TABLE teachers (
+                            id SERIAL PRIMARY KEY,
+                            college_tid varchar(20) UNIQUE,
+                            name varchar(50) NOT NULL,
+                            password varchar(200) NOT NULL,
+                            branch varchar(5)
+                          );
+
+    CREATE TABLE batch(
+                        bid int PRIMARY KEY,
+                        batch_name varchar(20),
+                        branch varchar(5)
+                      )
+
+    CREATE TABLE batch_students(
+                                bid int REFERENCES batch,
+                                student_id int REFERENCES students(id)
+                               );
+
+    CREATE TABLE attrs(
+                       student_id int references students(id),
+                       eleventh_perc real NOT NULL,
+                       twelfth_perc real NOT NULL,
+                       cgpa real NOT NULL,
+                       iq integer NOT NULL,
+                       num_internships integer NOT NULL,
+                       num_hacks_part integer NOT NULL,
+                       num_hacks_won integer NOT NULL,
+                       comp_coding integer NOT NULL CHECK(comp_coding IN (0,1)),
+                       num_hrs real NOT NULL,
+                       num_tech integer NOT NULL,
+                       avg_proj_score real NOT NULL,
+                       active_class integer NOT NULL CHECK(active_class IN (0,1)),
+                       sports_part integer NOT NULL CHECK(sports_part IN (0,1)),
+                       debate_part integer NOT NULL CHECK(debate_part IN (0,1))
+                      );
+
